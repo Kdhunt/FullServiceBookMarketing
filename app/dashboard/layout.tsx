@@ -3,12 +3,12 @@ import Sidebar from '@/components/dashboard/Sidebar';
 import LogoutButton from '@/components/dashboard/LogoutButton';
 import styles from './dashboard.module.css';
 
-export default function DashboardLayout({
+export default async function DashboardLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const auth = cookieStore.get('dashboard_auth');
 
   // Not authenticated → middleware will redirect, but render children (login page) without sidebar

@@ -4,14 +4,15 @@ import { notFound } from 'next/navigation';
 import { MarketingPage } from '@/lib/types';
 
 interface Props {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
-export default function PageEditorPage({ params }: Props) {
+export default async function PageEditorPage({ params }: Props) {
+  const { id } = await params;
   let page: MarketingPage | null = null;
 
-  if (params.id !== 'new') {
-    page = getPageById(params.id);
+  if (id !== 'new') {
+    page = getPageById(id);
     if (!page) notFound();
   } else {
     // New page template
@@ -26,5 +27,5 @@ export default function PageEditorPage({ params }: Props) {
     };
   }
 
-  return <PageEditorClient initialPage={page} isNew={params.id === 'new'} />;
+  return <PageEditorClient initialPage={page} isNew={id === 'new'} />;
 }

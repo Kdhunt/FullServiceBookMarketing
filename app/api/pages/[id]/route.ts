@@ -3,9 +3,10 @@ import { getPageById, savePage, deletePage } from '@/lib/data';
 
 export async function GET(
   _request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const page = getPageById(params.id);
+  const { id } = await params;
+  const page = getPageById(id);
   if (!page) {
     return NextResponse.json({ error: 'Page not found' }, { status: 404 });
   }
@@ -14,9 +15,10 @@ export async function GET(
 
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const page = getPageById(params.id);
+  const { id } = await params;
+  const page = getPageById(id);
   if (!page) {
     return NextResponse.json({ error: 'Page not found' }, { status: 404 });
   }
@@ -33,12 +35,13 @@ export async function PUT(
 
 export async function DELETE(
   _request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const page = getPageById(params.id);
+  const { id } = await params;
+  const page = getPageById(id);
   if (!page) {
     return NextResponse.json({ error: 'Page not found' }, { status: 404 });
   }
-  deletePage(params.id);
+  deletePage(id);
   return NextResponse.json({ success: true });
 }
