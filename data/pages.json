@@ -1,0 +1,255 @@
+[
+  {
+    "id": "page-home",
+    "title": "Home",
+    "slug": "home",
+    "status": "published",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-01T00:00:00Z",
+    "blocks": [
+      {
+        "id": "block-1",
+        "type": "hero",
+        "config": {
+          "heading": "Grow Your Book Sales with Expert Marketing",
+          "subheading": "We help authors and publishers reach more readers, build their brand, and maximize book sales with proven marketing strategies.",
+          "ctaLabel": "Get Started Today",
+          "ctaHref": "/pricing",
+          "bgColor": "#1a1a2e"
+        }
+      },
+      {
+        "id": "block-2",
+        "type": "stats",
+        "config": {
+          "stats": [
+            { "value": "500+", "label": "Authors Served" },
+            { "value": "2M+", "label": "Books Sold" },
+            { "value": "98%", "label": "Client Satisfaction" },
+            { "value": "10+", "label": "Years Experience" }
+          ]
+        }
+      },
+      {
+        "id": "block-3",
+        "type": "features",
+        "config": {
+          "heading": "Everything You Need to Market Your Book",
+          "subheading": "From strategy to execution, we provide a complete suite of book marketing services.",
+          "features": [
+            {
+              "icon": "📚",
+              "title": "Book Launch Strategy",
+              "description": "Plan and execute a powerful book launch that creates buzz and drives pre-orders and first-week sales."
+            },
+            {
+              "icon": "📱",
+              "title": "Social Media Marketing",
+              "description": "Build and engage your author platform across Instagram, Twitter, Facebook, and TikTok."
+            },
+            {
+              "icon": "✉️",
+              "title": "Email Marketing",
+              "description": "Grow your mailing list and connect directly with readers who love your work."
+            },
+            {
+              "icon": "🎯",
+              "title": "Targeted Advertising",
+              "description": "Run data-driven Amazon and Facebook ads that put your book in front of the right readers."
+            },
+            {
+              "icon": "⭐",
+              "title": "Review Campaigns",
+              "description": "Build social proof with strategic review outreach to book bloggers and influencers."
+            },
+            {
+              "icon": "📊",
+              "title": "Analytics & Reporting",
+              "description": "Track every campaign metric so you always know your ROI and can optimize for better results."
+            }
+          ]
+        }
+      },
+      {
+        "id": "block-4",
+        "type": "testimonials",
+        "config": {
+          "heading": "What Authors Are Saying",
+          "testimonials": [
+            {
+              "name": "Sarah Mitchell",
+              "role": "Bestselling Romance Author",
+              "quote": "BookMarketing Pro helped me hit the USA Today bestseller list with my third novel. Their Amazon ad strategy was a game changer.",
+              "avatar": ""
+            },
+            {
+              "name": "James O'Brien",
+              "role": "Non-Fiction Author",
+              "quote": "Within three months of working with this team, my book sales doubled and my email list grew to over 10,000 subscribers.",
+              "avatar": ""
+            },
+            {
+              "name": "Linda Chen",
+              "role": "Self-Published Author",
+              "quote": "I had no idea how to market my book. Their team walked me through everything and the results speak for themselves — 5,000 copies sold!",
+              "avatar": ""
+            }
+          ]
+        }
+      },
+      {
+        "id": "block-5",
+        "type": "cta",
+        "config": {
+          "heading": "Ready to Boost Your Book Sales?",
+          "subtext": "Join hundreds of successful authors who trust BookMarketing Pro to grow their readership and revenue.",
+          "buttonLabel": "Start Your Free Consultation",
+          "buttonHref": "/pricing",
+          "bgColor": "#2d6a4f"
+        }
+      }
+    ]
+  },
+  {
+    "id": "page-about",
+    "title": "About Us",
+    "slug": "about",
+    "status": "published",
+    "createdAt": "2024-01-02T00:00:00Z",
+    "updatedAt": "2024-01-02T00:00:00Z",
+    "blocks": [
+      {
+        "id": "about-block-1",
+        "type": "hero",
+        "config": {
+          "heading": "About BookMarketing Pro",
+          "subheading": "We're a team of passionate book marketing specialists dedicated to helping authors succeed.",
+          "ctaLabel": "Meet the Team",
+          "ctaHref": "#team",
+          "bgColor": "#2c3e50"
+        }
+      },
+      {
+        "id": "about-block-2",
+        "type": "text-image",
+        "config": {
+          "heading": "Our Story",
+          "text": "BookMarketing Pro was founded in 2013 by a group of publishing industry veterans who saw a gap in the market. Authors were writing incredible books, but struggling to get them in front of readers. We built a full-service marketing agency dedicated exclusively to books and authors. Today, we've helped over 500 authors across every genre reach their sales goals.",
+          "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600",
+          "imageAlt": "Our team at work",
+          "imagePosition": "right"
+        }
+      },
+      {
+        "id": "about-block-3",
+        "type": "features",
+        "config": {
+          "heading": "Our Values",
+          "subheading": "Everything we do is guided by these core principles.",
+          "features": [
+            {
+              "icon": "🤝",
+              "title": "Author-First Approach",
+              "description": "Your success is our success. We treat every book as if it were our own."
+            },
+            {
+              "icon": "📈",
+              "title": "Data-Driven Results",
+              "description": "We make decisions based on data and track every metric that matters."
+            },
+            {
+              "icon": "🔍",
+              "title": "Transparency",
+              "description": "You'll always know exactly what we're doing and why, with clear reporting."
+            }
+          ]
+        }
+      },
+      {
+        "id": "about-block-4",
+        "type": "faq",
+        "config": {
+          "heading": "Frequently Asked Questions",
+          "items": [
+            {
+              "question": "How long have you been in business?",
+              "answer": "BookMarketing Pro has been serving authors since 2013, with over a decade of experience in the book marketing industry."
+            },
+            {
+              "question": "What genres do you specialize in?",
+              "answer": "We work with authors across all genres including fiction, non-fiction, romance, thriller, self-help, business, and more."
+            },
+            {
+              "question": "Do you work with self-published authors?",
+              "answer": "Absolutely! A significant portion of our clients are indie and self-published authors. We tailor our strategies to your specific situation and budget."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "page-pricing",
+    "title": "Pricing",
+    "slug": "pricing",
+    "status": "published",
+    "createdAt": "2024-01-03T00:00:00Z",
+    "updatedAt": "2024-01-03T00:00:00Z",
+    "blocks": [
+      {
+        "id": "pricing-block-1",
+        "type": "hero",
+        "config": {
+          "heading": "Simple, Transparent Pricing",
+          "subheading": "Choose the plan that fits your book marketing goals. All plans include a free consultation.",
+          "ctaLabel": "View Plans Below",
+          "ctaHref": "#plans",
+          "bgColor": "#4a0e8f"
+        }
+      },
+      {
+        "id": "pricing-block-2",
+        "type": "rich-text",
+        "config": {
+          "content": "<div id='plans' style='max-width:900px;margin:0 auto;padding:2rem 0'><div style='display:grid;grid-template-columns:repeat(3,1fr);gap:2rem'><div style='border:2px solid #e2e8f0;border-radius:12px;padding:2rem;text-align:center'><h3 style='font-size:1.5rem;margin-bottom:0.5rem'>Starter</h3><p style='color:#666;margin-bottom:1rem'>Perfect for first-time authors</p><div style='font-size:3rem;font-weight:bold;margin:1rem 0'>$499<span style='font-size:1rem;font-weight:normal'>/mo</span></div><ul style='text-align:left;list-style:none;padding:0'><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ Social media setup</li><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ Launch strategy</li><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ Email template</li><li style='padding:0.5rem 0'>✅ Monthly report</li></ul></div><div style='border:2px solid #6366f1;border-radius:12px;padding:2rem;text-align:center;background:#f8f7ff'><h3 style='font-size:1.5rem;margin-bottom:0.5rem'>Professional</h3><p style='color:#666;margin-bottom:1rem'>For serious authors</p><div style='font-size:3rem;font-weight:bold;margin:1rem 0;color:#6366f1'>$1,299<span style='font-size:1rem;font-weight:normal'>/mo</span></div><ul style='text-align:left;list-style:none;padding:0'><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ Everything in Starter</li><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ Amazon ad management</li><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ BookTok campaigns</li><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ ARC coordination</li><li style='padding:0.5rem 0'>✅ Weekly reports</li></ul></div><div style='border:2px solid #e2e8f0;border-radius:12px;padding:2rem;text-align:center'><h3 style='font-size:1.5rem;margin-bottom:0.5rem'>Publisher</h3><p style='color:#666;margin-bottom:1rem'>For publishers &amp; series</p><div style='font-size:3rem;font-weight:bold;margin:1rem 0'>$3,499<span style='font-size:1rem;font-weight:normal'>/mo</span></div><ul style='text-align:left;list-style:none;padding:0'><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ Everything in Pro</li><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ PR &amp; media outreach</li><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ Podcast booking</li><li style='padding:0.5rem 0;border-bottom:1px solid #eee'>✅ Series strategy</li><li style='padding:0.5rem 0'>✅ Dedicated manager</li></ul></div></div></div>"
+        }
+      },
+      {
+        "id": "pricing-block-3",
+        "type": "faq",
+        "config": {
+          "heading": "Pricing FAQ",
+          "items": [
+            {
+              "question": "Is there a contract?",
+              "answer": "All plans are month-to-month. You can cancel anytime with 30 days notice. We also offer 6-month and annual packages with a discount."
+            },
+            {
+              "question": "What's included in the free consultation?",
+              "answer": "A 30-minute call with one of our marketing strategists to discuss your book, your goals, and which plan makes the most sense for you."
+            },
+            {
+              "question": "Do you offer refunds?",
+              "answer": "We offer a 14-day money-back guarantee on all new plans if you're not satisfied with our onboarding process."
+            },
+            {
+              "question": "Can I upgrade or downgrade my plan?",
+              "answer": "Yes, you can change your plan at any time. Changes take effect at the start of the next billing cycle."
+            }
+          ]
+        }
+      },
+      {
+        "id": "pricing-block-4",
+        "type": "cta",
+        "config": {
+          "heading": "Not Sure Which Plan is Right for You?",
+          "subtext": "Book a free 30-minute consultation and we'll help you choose the best plan for your goals and budget.",
+          "buttonLabel": "Book Free Consultation",
+          "buttonHref": "mailto:hello@bookmarketingpro.com",
+          "bgColor": "#1a1a2e"
+        }
+      }
+    ]
+  }
+]
