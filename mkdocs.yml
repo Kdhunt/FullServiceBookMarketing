@@ -1,0 +1,22 @@
+site_name: Full Service Book Marketing
+site_description: API documentation for the Full Service Book Marketing platform
+site_url: https://kdhunt.github.io/FullServiceBookMarketing/
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - API Reference: api-reference.md
+  - Development: development.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - toc:
+      permalink: true
