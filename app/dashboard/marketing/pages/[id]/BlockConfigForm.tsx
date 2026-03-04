@@ -176,6 +176,13 @@ export default function BlockConfigForm({ block, onChange }: Props) {
 
     case 'testimonials': {
       const testimonials = (c.testimonials as Array<{ name: string; role: string; quote: string; avatar: string }>) || [];
+
+      const updateTestimonial = (i: number, field: string, value: string) => {
+        const u = [...testimonials];
+        u[i] = { ...u[i], [field]: value };
+        update('testimonials', u);
+      }
+
       return (
         <div className={styles.configForm}>
           <Field label="Section Heading">
@@ -215,16 +222,16 @@ export default function BlockConfigForm({ block, onChange }: Props) {
                   </button>
                 </div>
                 <Field label="Name">
-                  <input type="text" value={t.name} onChange={(e) => { const u = [...testimonials]; u[i] = { ...t, name: e.target.value }; update('testimonials', u); }} className={styles.input} />
+                  <input type="text" value={t.name} onChange={(e) => updateTestimonial(i, 'name', e.target.value)} className={styles.input} />
                 </Field>
                 <Field label="Role">
-                  <input type="text" value={t.role} onChange={(e) => { const u = [...testimonials]; u[i] = { ...t, role: e.target.value }; update('testimonials', u); }} className={styles.input} />
+                  <input type="text" value={t.role} onChange={(e) => updateTestimonial(i, 'role', e.target.value)} className={styles.input} />
                 </Field>
                 <Field label="Quote">
-                  <textarea value={t.quote} onChange={(e) => { const u = [...testimonials]; u[i] = { ...t, quote: e.target.value }; update('testimonials', u); }} className={styles.textarea} rows={3} />
+                  <textarea value={t.quote} onChange={(e) => updateTestimonial(i, 'quote', e.target.value)} className={styles.textarea} rows={3} />
                 </Field>
                 <Field label="Avatar URL">
-                  <input type="text" value={t.avatar || ''} onChange={(e) => { const u = [...testimonials]; u[i] = { ...t, avatar: e.target.value }; update('testimonials', u); }} className={styles.input} placeholder="https://..." />
+                  <input type="text" value={t.avatar || ''} onChange={(e) => updateTestimonial(i, 'avatar', e.target.value)} className={styles.input} placeholder="https://..." />
                 </Field>
               </div>
             ))}

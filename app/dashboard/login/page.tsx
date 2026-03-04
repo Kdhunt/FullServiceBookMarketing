@@ -77,9 +77,11 @@ export default function LoginPage() {
             {loading ? 'Signing in…' : 'Sign In'}
           </button>
         </form>
-        <p className={styles.hint}>
-          Default: <code>admin</code> / <code>admin123</code>
-        </p>
+        {process.env.NODE_ENV === 'development' && (
+          <p className={styles.hint}>
+            Dev default: <code>admin</code> / <code>admin123</code>
+          </p>
+        )}
       </div>
     </div>
   );
