@@ -1,0 +1,26 @@
+{
+  "name": "full-service-book-marketing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/sanitize-html": "^2.16.0",
+    "next": "^15.5.12",
+    "react": "^18",
+    "react-dom": "^18",
+    "sanitize-html": "^2.17.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.0",
+    "typescript": "^5"
+  }
+}

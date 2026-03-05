@@ -1,0 +1,28 @@
+{
+  "siteName": "BookMarketing Pro",
+  "logoText": "BookMarketing Pro",
+  "headerLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Pricing", "href": "/pricing" }
+  ],
+  "footerLinks": [
+    { "label": "Privacy Policy", "href": "/privacy" },
+    { "label": "Terms of Service", "href": "/terms" }
+  ],
+  "footerTagline": "Grow your book sales with expert marketing.",
+  "footerCopyright": "© 2024 BookMarketing Pro. All rights reserved.",
+  "cssVars": {
+    "--color-primary": "#6366f1",
+    "--color-secondary": "#2d6a4f",
+    "--color-accent": "#f59e0b",
+    "--color-bg": "#ffffff",
+    "--color-text": "#1a1a2e",
+    "--color-text-light": "#64748b",
+    "--color-border": "#e2e8f0",
+    "--color-white": "#ffffff",
+    "--color-black": "#000000",
+    "--color-success": "#10b981",
+    "--color-danger": "#ef4444"
+  }
+}
